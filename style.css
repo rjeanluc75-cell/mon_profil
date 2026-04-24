@@ -1,4 +1,3 @@
-/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +5,17 @@
     font-family: Arial, sans-serif;
 }
 
-/* Corps du site */
 body {
-    background-color: #0f172a;
+    background: #0f172a;
     color: white;
-    line-height: 1.6;
 }
 
-/* Navigation */
+/* NAVBAR */
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: #1e293b;
     padding: 20px;
+    background: #1e293b;
 }
 
 nav ul {
@@ -34,36 +30,35 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav ul li a:hover {
     color: #38bdf8;
 }
 
-/* Section accueil */
+/* ACCUEIL */
 #home {
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
     background: #2563eb;
 }
 
-#home h1 {
-    font-size: 3rem;
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
 }
 
-#home p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-/* Sections */
+/* SECTIONS */
 section {
     padding: 60px 20px;
     text-align: center;
 }
 
-/* Compétences */
+/* COMPÉTENCES */
 #skills ul {
     list-style: none;
 }
@@ -76,7 +71,7 @@ section {
     border-radius: 10px;
 }
 
-/* Projets */
+/* PROJETS */
 #projects div {
     background: #1e293b;
     margin: 20px auto;
@@ -85,14 +80,9 @@ section {
     border-radius: 10px;
 }
 
-/* Contact */
-#contact p {
-    margin: 10px;
-}
-
-/* Footer */
+/* FOOTER */
 footer {
     text-align: center;
-    background: #111827;
     padding: 20px;
+    background: #111827;
 }
